@@ -13,7 +13,7 @@ class IntList:
             return 1
         else:
             return 1 + self.rest.size()
-
+   
     def notrecursive(self):
         pointer = self
         total_size = 0
