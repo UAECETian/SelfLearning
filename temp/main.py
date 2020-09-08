@@ -12,8 +12,8 @@ class IntList:
         if self.rest is None:
             return 1
         else:
-            return 1 + self.rest.size()
-   
+            return 1 + self.rest.recursivesize()
+
     def notrecursive(self):
         pointer = self
         total_size = 0
@@ -26,4 +26,4 @@ l = IntList(5, None)
 l = IntList(10, l)
 l = IntList(15, l)
 
-print(l.size())
+print(l.recursivesize())
