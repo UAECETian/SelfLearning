@@ -17,6 +17,6 @@ l = IntList(15, l)
 l = IntList(20, l)
 l = IntList(25, l)
 
-
+ 
 print(l.get(3))
-#bilibili   54:17 
+#bilibili   54:17
