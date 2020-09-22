@@ -3,6 +3,6 @@ Python Self-Learning
 
 Name formating
 
-LT = Leetcode
+LC = Leetcode
 
 SL = Selflearning
